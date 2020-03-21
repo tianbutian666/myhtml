@@ -1,0 +1,104 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    /* color: #000; */
+}
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li img {
+    width: 122px;
+    height: 250px;
+    margin: 15px 75px 25px 75px ;
+}
+.sk_bd ul li p {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 15px;
+}
+.sk_bd ul li .first {
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_bd ul li .second {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.sk_bd ul li .three {
+    margin-top: 13px;
+}
+.sk_bd ul li>div {
+    margin-left: 10px;
+}
+.sk_bd .bar {
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 1px;
+}
+.sk_bd .bar .bar_in {
+    width: 87%;
+    height: 100%;
+    background-color: red;
+    transition: all 1s;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+.sk_bd .qiang {
+    display: block;
+    height: 50px;
+    color: #e2bbbb;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #b1191a;
+    
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
